@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e80d890fce76446b31e67dc4a141dc, type: 3}
+  m_Name: Weremouse
+  m_EditorClassIdentifier: 
+  enemyId: 2
+  enemyName: Weremouse
+  healthStat: 30
+  powerStat: 10
+  blockStat: 10
+  agilityStat: 20
+  evasionStat: 5
+  moves:
+  - {fileID: 11400000, guid: 1eec7105909ef7e4bae2eea1660a7f58, type: 2}
+  - {fileID: 11400000, guid: 1141f61d077600742b48068f25209e3a, type: 2}
+  controller: {fileID: 9100000, guid: f92ae16ad14419e45b4d4fa3920d7a87, type: 2}
